@@ -1,14 +1,14 @@
-import { Todos, AutoComplete } from '@builder.io/talk-app-react';
+import { Todos, AutoComplete } from "../../apps/output/react/src";
 
 function App() {
   const getValues = async () => {
-    return ['Hello', 'Modern', 'Frontends', 'Live!'];
+    return ["Hello", "Modern", "Frontends", "Live!"];
   };
   const getComponentForPath = (path) => {
     switch (path) {
-      case '/todo':
+      case "/todo":
         return <Todos />;
-      case '/autocomplete':
+      case "/autocomplete":
         return (
           <AutoComplete
             renderChild={(props) => <span>{props.item}</span>}

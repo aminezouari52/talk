@@ -8,9 +8,6 @@
     "dev": "vite",
     "serve": "vite preview"
   },
-  "dependencies": {
-    "@builder.io/talk-app-svelte": "workspace:*"
-  },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^1.0.0-next.49",
     "@tsconfig/svelte": "^3.0.0",
