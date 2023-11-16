@@ -1,7 +1,7 @@
 {
   "name": "@builder.io/example-apps",
   "scripts": {
-    "start": "watch 'yarn run build' ./src",
+    "start": "nodemon --exec yarn run build --watch ./src",
     "build": "mitosis build --c mitosis.config.cjs",
     "lint": "eslint"
   },
